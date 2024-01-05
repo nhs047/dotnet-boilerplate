@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZH/M1iTvqfKjtsARJelWuaMWXt3Ea91Lpw4HykZEJmOU/hEFTrq37HvbAaHrqD9SQd2bc7mI/6asIA+W8ZMzrw==",
+  "success": true,
+  "projectFilePath": "D:\\Others\\Apps\\Localizations\\Localization.Test.Infrastructure\\Localization.Test.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nobi\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\nobi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\nobi\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\nobi\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\nobi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\nobi\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

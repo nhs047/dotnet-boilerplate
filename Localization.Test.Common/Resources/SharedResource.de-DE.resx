@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EMAIL_EXISTS" xml:space="preserve">
+    <value>E-Mail existiert bereits!</value>
+  </data>
+  <data name="NOT_AUTHORIZED" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, diese Anfrage auszuführen!</value>
+  </data>
+  <data name="NOT_FOUND" xml:space="preserve">
+    <value>Nicht gefunden!</value>
+  </data>
+  <data name="NO_RECORDS_FOUND" xml:space="preserve">
+    <value>Keine Aufzeichnungen gefunden</value>
+  </data>
+  <data name="NO_TEMPLATE_FOUND" xml:space="preserve">
+    <value>Für „{1}“ Culture wurde keine Vorlage mit dem Titel {0} gefunden</value>
+  </data>
+  <data name="PASSWORD_POLICY_MISMATCHED" xml:space="preserve">
+    <value>Das Passwort sollte mindestens 8 Zeichen mit der Kombination aus Ziffer, Großbuchstabe, Kleinbuchstabe und einem Sonderzeichen enthalten!</value>
+  </data>
+  <data name="PLEASE_INPUT_VALID_CULTURE" xml:space="preserve">
+    <value>Bitte geben Sie eine gültige Kultur ein!</value>
+  </data>
+  <data name="PLEASE_PROVIDE_VALID_MAIL" xml:space="preserve">
+    <value>Bitte geben Sie eine gültige E-Mail-Adresse an!</value>
+  </data>
+  <data name="PROFILE_UPDATED_MAIL_BODY" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt; 
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;
+   &lt;head&gt;
+      &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+      &lt;meta name="viewport" content="width=device-width"&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+      &lt;title&gt;&lt;/title&gt;
+      &lt;link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"&gt;
+      &lt;style type="text/css"&gt; 		
+         body { 			
+         margin: 0; 			
+         padding: 0; 		
+         }  		
+         table, 		td, 		tr {
+         vertical-align: top; 			
+         border-collapse: collapse; 		
+         }  		
+         * { 			
+         line-height: inherit; 		
+         }  		
+         a[x-apple-data-detectors=true] { 			
+         color: inherit !important; 			
+         text-decoration: none !important; 		
+         } 	
+      &lt;/style&gt;
+      &lt;style type="text/css" id="media-query"&gt; 		
+         @media (max-width: 695px) {  			
+         .block-grid, 			.col { 				
+         min-width: 320px !important; 				
+         max-width: 100% !important; 				
+         display: block !important; 			
+         }  			
+         .block-grid { 				
+         width: 100% !important; 			
+         }  			
+         .col { 				
+         width: 100% !important; 			
+         }  			
+         .col_cont { 				
+         margin: 0 auto; 			
+         }  			
+         img.fullwidth, 			
+         img.fullwidthOnMobile { 				
+         max-width: 100% !important; 			
+         }  			
+         .no-stack .col { 				
+         min-width: 0 !important; 				
+         display: table-cell !important; 			
+         }  			
+         .no-stack.two-up .col { 				
+         width: 50% !important; 			
+         }  			
+         .no-stack .col.num2 { 				
+         width: 16.6% !important; 			
+         }  			
+         .no-stack .col.num3 { 				
+         width: 25% !important; 			
+         }  			
+         .no-stack .col.num4 { 				
+         width: 33% !important; 			
+         }  			
+         .no-stack .col.num5 { 				
+         width: 41.6% !important; 			
+         }  			
+         .no-stack .col.num6 { 				
+         width: 50% !important; 			
+         }  			
+         .no-stack .col.num7 { 				
+         width: 58.3% !important; 			
+         }  			
+         .no-stack .col.num8 { 				
+         width: 66.6% !important; 			
+         }  			
+         .no-stack .col.num9 { 				
+         width: 75% !important; 			
+         }  			
+         .no-stack .col.num10 { 				
+         width: 83.3% !important; 			
+         }  			
+         .video-block { 				
+         max-width: none !important; 			
+         }  			
+         .mobile_hide { 				
+         min-height: 0px; 				
+         max-height: 0px; 				
+         max-width: 0px; 				
+         display: none; 				
+         overflow: hidden; 				
+         font-size: 0px; 			
+         }  			
+         .desktop_hide { 				
+         display: block !important; 				
+         max-height: none !important; 			
+         } 		
+         } 	
+      &lt;/style&gt;
+   &lt;/head&gt;
+   &lt;body class="clean-body" style="margin: 0; padding: 0; -webkit-text-size-adjust: 100%; background-color: transparent;"&gt;
+      &lt;table class="nl-container" style="table-layout: fixed; vertical-align: top; min-width: 320px; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: transparent; width: 100%;" cellpadding="0" cellspacing="0" role="presentation" width="100%" bgcolor="transparent" valign="top"&gt;
+         &lt;tbody&gt;
+            &lt;tr style="vertical-align: top;" valign="top"&gt;
+               &lt;td style="word-break: break-word; vertical-align: top;" valign="top"&gt;
+                  &lt;div style="background-color:transparent;"&gt;
+                     &lt;div class="block-grid " style="min-width: 320px; max-width: 675px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: transparent;"&gt;
+                        &lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;"&gt;
+                           &lt;div class="col num12" style="min-width: 320px; max-width: 675px; display: table-cell; vertical-align: top; width: 675px;"&gt;
+                              &lt;div class="col_cont" style="width:100% !important;"&gt;
+                                 &lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+                                    &lt;div class="img-container center fixedwidth" align="center" style="padding-right: 0px;padding-left: 0px;"&gt; 
+                                       &lt;!--&lt;img class="center fixedwidth" align="center" border="0" src="" alt="Alternate text" title="Alternate text" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 75px; display: block;" width="75"&gt;--&gt;
+                                    &lt;/div&gt;
+                                 &lt;/div&gt;
+                              &lt;/div&gt;
+                           &lt;/div&gt;
+                        &lt;/div&gt;
+                     &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div style="background-color:transparent;"&gt;
+                     &lt;div class="block-grid " style="min-width: 320px; max-width: 675px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: transparent;"&gt;
+                        &lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;"&gt;
+                           &lt;div class="col num12" style="min-width: 320px; max-width: 675px; display: table-cell; vertical-align: top; width: 675px;"&gt;
+                              &lt;div class="col_cont" style="width:100% !important;"&gt;
+                                 &lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin: 0;"&gt;&lt;strong&gt;Lieber [*Fullname*],&lt;/strong&gt;&lt;/p&gt;
+                                          &lt;p style="font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin: 0;"&gt;&amp;nbsp;&lt;/p&gt;
+                                          &lt;p style="line-height: 1.2; word-break: break-word; font-size: 14px; mso-line-height-alt: 17px; margin: 0;"&gt;
+                                             &lt;span style="font-size: 14px;"&gt;Ihr Profil wurde aktualisiert.&lt;/span&gt;
+                                          &lt;/p&gt;
+                                          &lt;p style="line-height: 1.2; word-break: break-word; font-size: 14px; mso-line-height-alt: 17px; margin-top: 10px;"&gt;
+                                             &lt;span style="font-size: 14px;"&gt;Fühlen Sie sich frei, die Anwendung zu genießen.&lt;/span&gt;
+                                          &lt;/p&gt;
+                                          &lt;p style="line-height: 1.2; word-break: break-word; font-size: 14px; mso-line-height-alt: 17px; margin-top: 10px;"&gt;
+                                             &lt;span style="font-size: 14px;"&gt;Wir wünschen Ihnen eine schöne Reise mit uns.&lt;/span&gt;
+                                          &lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="button-container" align="center" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+&lt;a target="_blank" href="[*AppLink*]" style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #ffffff; background-color: #2991d6; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; width: auto; width: auto; border-top: 1px solid #2991d6; border-right: 1px solid #2991d6; border-bottom: 1px solid #2991d6; border-left: 1px solid #2991d6; padding-top: 5px; padding-bottom: 5px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;"&gt;&lt;span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;"&gt;&lt;span style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;"&gt;Gehe zu [*AppName*]&lt;/span&gt;&lt;/span&gt;&lt;/a&gt; 
+				    &lt;/div&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="text-align: center; line-height: 1.2; word-break: break-word; mso-line-height-alt: 14px; margin: 0;"&gt; &lt;/p&gt;
+                                          &lt;p style="text-align: center; line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;"&gt;&lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="font-size: 12px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 14px; margin: 0;"&gt;
+                                             &lt;span style="font-size: 12px;"&gt;Diese E-Mail und alle angehängten Dateien können vertraulicher Natur sein. Sollten Sie diese E-Mail irrtümlich erhalten haben, bitte ich/wir Sie, diese Nachricht nicht weiter zu verbreiten, zu kopieren, weiterzuleiten oder in sonstiger Weise zu nutzen. Bitte benachrichtigen Sie den Absender umgehend per Antwort-E-Mail, wenn Sie diese Nachricht fälschlicherweise erhalten haben, und vernichten Sie diese Nachricht, damit sie vollständig von Ihrem System gelöscht wird. Vielen Dank.&lt;/span&gt;
+                                          &lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;table class="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" role="presentation" valign="top"&gt;
+                                       &lt;tbody&gt;
+                                          &lt;tr style="vertical-align: top;" valign="top"&gt;
+                                             &lt;td class="divider_inner" style="word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" valign="top"&gt;
+                                                &lt;table class="divider_content" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-top: 4px solid #C9DEEC; width: 100%;" align="center" role="presentation" valign="top"&gt;
+                                                   &lt;tbody&gt;
+                                                      &lt;tr style="vertical-align: top;" valign="top"&gt;
+                                                         &lt;td style="word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" valign="top"&gt;&lt;span&gt;&lt;/span&gt;
+                                                         &lt;/td&gt;
+                                                      &lt;/tr&gt;
+                                                   &lt;/tbody&gt;
+                                                &lt;/table&gt;
+                                             &lt;/td&gt;
+                                          &lt;/tr&gt;
+                                       &lt;/tbody&gt;
+                                    &lt;/table&gt;
+                                 &lt;/div&gt;
+                              &lt;/div&gt;
+                           &lt;/div&gt;
+                        &lt;/div&gt;
+                     &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div style="background-color:transparent;"&gt;
+                     &lt;div class="block-grid mixed-two-up" style="min-width: 320px; max-width: 675px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: transparent;"&gt;
+                        &lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;"&gt;
+                           &lt;div class="col num4" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 224px; width: 225px;"&gt;
+                              &lt;div class="col_cont" style="width:100% !important;"&gt;
+                                 &lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="line-height: 1.2; word-break: break-word; font-size: 13px; mso-line-height-alt: 16px; mso-ansi-font-size: 14px; margin: 0;"&gt;
+                                             &lt;span style="font-size: 13px; mso-ansi-font-size: 14px;"&gt;Tel : +xx xxx xxxx&lt;/span&gt;
+                                          &lt;/p&gt;
+                                         
+                                          &lt;p style="line-height: 1.2; word-break: break-word; mso-line-height-alt: 14px; margin: 0;"&gt;&lt;br&gt;&lt;span style="font-size: 13px; mso-ansi-font-size: 14px;"&gt;Email : xxxxxxxxx@xxx.xxx&lt;/span&gt;
+                                          &lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                 &lt;/div&gt;
+                              &lt;/div&gt;
+                           &lt;/div&gt;
+                           &lt;div class="col num8" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 448px; width: 450px;"&gt;
+                              &lt;div class="col_cont" style="width:100% !important;"&gt;
+                                 &lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="font-size: 13px; line-height: 1.2; word-break: break-word; text-align: right; mso-line-height-alt: 16px; mso-ansi-font-size: 14px; margin: 0;"&gt;
+                                             &lt;span style="font-size: 13px; mso-ansi-font-size: 14px; font-weight:600"&gt;[*CompanyName*]&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                                             &lt;span style="font-size: 13px; mso-ansi-font-size: 14px;"&gt;xx/x xxx, xxxxx, xxxxxxxxxx&lt;/span&gt;
+                                          &lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                 &lt;/div&gt;
+                              &lt;/div&gt;
+                           &lt;/div&gt;
+                        &lt;/div&gt;
+                     &lt;/div&gt;
+                  &lt;/div&gt;
+               &lt;/td&gt;
+            &lt;/tr&gt;
+         &lt;/tbody&gt;
+      &lt;/table&gt;
+   &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="PROFILE_UPDATED_MAIL_SUBJECT" xml:space="preserve">
+    <value>Ihr Profil wurde aktualisiert!</value>
+  </data>
+  <data name="REGISTRATION_SUCCESS_MAIL_BODY" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt; 
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"&gt;
+   &lt;head&gt;
+      &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+      &lt;meta name="viewport" content="width=device-width"&gt;
+      &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+      &lt;title&gt;&lt;/title&gt;
+      &lt;link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"&gt;
+      &lt;style type="text/css"&gt; 		
+         body { 			
+         margin: 0; 			
+         padding: 0; 		
+         }  		
+         table, 		td, 		tr {
+         vertical-align: top; 			
+         border-collapse: collapse; 		
+         }  		
+         * { 			
+         line-height: inherit; 		
+         }  		
+         a[x-apple-data-detectors=true] { 			
+         color: inherit !important; 			
+         text-decoration: none !important; 		
+         } 	
+      &lt;/style&gt;
+      &lt;style type="text/css" id="media-query"&gt; 		
+         @media (max-width: 695px) {  			
+         .block-grid, 			.col { 				
+         min-width: 320px !important; 				
+         max-width: 100% !important; 				
+         display: block !important; 			
+         }  			
+         .block-grid { 				
+         width: 100% !important; 			
+         }  			
+         .col { 				
+         width: 100% !important; 			
+         }  			
+         .col_cont { 				
+         margin: 0 auto; 			
+         }  			
+         img.fullwidth, 			
+         img.fullwidthOnMobile { 				
+         max-width: 100% !important; 			
+         }  			
+         .no-stack .col { 				
+         min-width: 0 !important; 				
+         display: table-cell !important; 			
+         }  			
+         .no-stack.two-up .col { 				
+         width: 50% !important; 			
+         }  			
+         .no-stack .col.num2 { 				
+         width: 16.6% !important; 			
+         }  			
+         .no-stack .col.num3 { 				
+         width: 25% !important; 			
+         }  			
+         .no-stack .col.num4 { 				
+         width: 33% !important; 			
+         }  			
+         .no-stack .col.num5 { 				
+         width: 41.6% !important; 			
+         }  			
+         .no-stack .col.num6 { 				
+         width: 50% !important; 			
+         }  			
+         .no-stack .col.num7 { 				
+         width: 58.3% !important; 			
+         }  			
+         .no-stack .col.num8 { 				
+         width: 66.6% !important; 			
+         }  			
+         .no-stack .col.num9 { 				
+         width: 75% !important; 			
+         }  			
+         .no-stack .col.num10 { 				
+         width: 83.3% !important; 			
+         }  			
+         .video-block { 				
+         max-width: none !important; 			
+         }  			
+         .mobile_hide { 				
+         min-height: 0px; 				
+         max-height: 0px; 				
+         max-width: 0px; 				
+         display: none; 				
+         overflow: hidden; 				
+         font-size: 0px; 			
+         }  			
+         .desktop_hide { 				
+         display: block !important; 				
+         max-height: none !important; 			
+         } 		
+         } 	
+      &lt;/style&gt;
+   &lt;/head&gt;
+   &lt;body class="clean-body" style="margin: 0; padding: 0; -webkit-text-size-adjust: 100%; background-color: transparent;"&gt;
+      &lt;table class="nl-container" style="table-layout: fixed; vertical-align: top; min-width: 320px; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: transparent; width: 100%;" cellpadding="0" cellspacing="0" role="presentation" width="100%" bgcolor="transparent" valign="top"&gt;
+         &lt;tbody&gt;
+            &lt;tr style="vertical-align: top;" valign="top"&gt;
+               &lt;td style="word-break: break-word; vertical-align: top;" valign="top"&gt;
+                  &lt;div style="background-color:transparent;"&gt;
+                     &lt;div class="block-grid " style="min-width: 320px; max-width: 675px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: transparent;"&gt;
+                        &lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;"&gt;
+                           &lt;div class="col num12" style="min-width: 320px; max-width: 675px; display: table-cell; vertical-align: top; width: 675px;"&gt;
+                              &lt;div class="col_cont" style="width:100% !important;"&gt;
+                                 &lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+                                    &lt;div class="img-container center fixedwidth" align="center" style="padding-right: 0px;padding-left: 0px;"&gt; 
+                                       &lt;!--&lt;img class="center fixedwidth" align="center" border="0" src="" alt="Alternate text" title="Alternate text" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; width: 100%; max-width: 75px; display: block;" width="75"&gt;--&gt;
+                                    &lt;/div&gt;
+                                 &lt;/div&gt;
+                              &lt;/div&gt;
+                           &lt;/div&gt;
+                        &lt;/div&gt;
+                     &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div style="background-color:transparent;"&gt;
+                     &lt;div class="block-grid " style="min-width: 320px; max-width: 675px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: transparent;"&gt;
+                        &lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;"&gt;
+                           &lt;div class="col num12" style="min-width: 320px; max-width: 675px; display: table-cell; vertical-align: top; width: 675px;"&gt;
+                              &lt;div class="col_cont" style="width:100% !important;"&gt;
+                                 &lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin: 0;"&gt;&lt;strong&gt;Lieber [*Fullname*],&lt;/strong&gt;&lt;/p&gt;
+                                          &lt;p style="font-size: 14px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 17px; margin: 0;"&gt;&amp;nbsp;&lt;/p&gt;
+                                          &lt;p style="line-height: 1.2; word-break: break-word; font-size: 14px; mso-line-height-alt: 17px; margin: 0;"&gt;
+                                             &lt;span style="font-size: 14px;"&gt;Willkommen bei der Anwendung [*AppName*].&lt;/span&gt;
+                                          &lt;/p&gt;
+                                          &lt;p style="line-height: 1.2; word-break: break-word; font-size: 14px; mso-line-height-alt: 17px; margin-top: 10px;"&gt;
+                                             &lt;span style="font-size: 14px;"&gt;Fühlen Sie sich frei, die Anwendung zu genießen.&lt;/span&gt;
+                                          &lt;/p&gt;
+                                          &lt;p style="line-height: 1.2; word-break: break-word; font-size: 14px; mso-line-height-alt: 17px; margin-top: 10px;"&gt;
+                                             &lt;span style="font-size: 14px;"&gt;Wir wünschen Ihnen eine schöne Reise mit uns.&lt;/span&gt;
+                                          &lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="button-container" align="center" style="padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+&lt;a target="_blank" href="[*AppLink*]" style="-webkit-text-size-adjust: none; text-decoration: none; display: inline-block; color: #ffffff; background-color: #2991d6; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; width: auto; width: auto; border-top: 1px solid #2991d6; border-right: 1px solid #2991d6; border-bottom: 1px solid #2991d6; border-left: 1px solid #2991d6; padding-top: 5px; padding-bottom: 5px; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; text-align: center; mso-border-alt: none; word-break: keep-all;"&gt;&lt;span style="padding-left:20px;padding-right:20px;font-size:16px;display:inline-block;"&gt;&lt;span style="font-size: 16px; line-height: 2; word-break: break-word; mso-line-height-alt: 32px;"&gt;Gehe zu [*AppName*]&lt;/span&gt;&lt;/span&gt;&lt;/a&gt; 
+				    &lt;/div&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="text-align: center; line-height: 1.2; word-break: break-word; mso-line-height-alt: 14px; margin: 0;"&gt; &lt;/p&gt;
+                                          &lt;p style="text-align: center; line-height: 1.2; word-break: break-word; font-size: 15px; mso-line-height-alt: 18px; margin: 0;"&gt;&lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="font-size: 12px; line-height: 1.2; word-break: break-word; mso-line-height-alt: 14px; margin: 0;"&gt;
+                                             &lt;span style="font-size: 12px;"&gt;Diese E-Mail und alle angehängten Dateien können vertraulicher Natur sein. Sollten Sie diese E-Mail irrtümlich erhalten haben, bitte ich/wir Sie, diese Nachricht nicht weiter zu verbreiten, zu kopieren, weiterzuleiten oder in sonstiger Weise zu nutzen. Bitte benachrichtigen Sie den Absender umgehend per Antwort-E-Mail, wenn Sie diese Nachricht fälschlicherweise erhalten haben, und vernichten Sie diese Nachricht, damit sie vollständig von Ihrem System gelöscht wird. Vielen Dank.&lt;/span&gt;
+                                          &lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                    &lt;table class="divider" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" role="presentation" valign="top"&gt;
+                                       &lt;tbody&gt;
+                                          &lt;tr style="vertical-align: top;" valign="top"&gt;
+                                             &lt;td class="divider_inner" style="word-break: break-word; vertical-align: top; min-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px;" valign="top"&gt;
+                                                &lt;table class="divider_content" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-top: 4px solid #C9DEEC; width: 100%;" align="center" role="presentation" valign="top"&gt;
+                                                   &lt;tbody&gt;
+                                                      &lt;tr style="vertical-align: top;" valign="top"&gt;
+                                                         &lt;td style="word-break: break-word; vertical-align: top; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;" valign="top"&gt;&lt;span&gt;&lt;/span&gt;
+                                                         &lt;/td&gt;
+                                                      &lt;/tr&gt;
+                                                   &lt;/tbody&gt;
+                                                &lt;/table&gt;
+                                             &lt;/td&gt;
+                                          &lt;/tr&gt;
+                                       &lt;/tbody&gt;
+                                    &lt;/table&gt;
+                                 &lt;/div&gt;
+                              &lt;/div&gt;
+                           &lt;/div&gt;
+                        &lt;/div&gt;
+                     &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div style="background-color:transparent;"&gt;
+                     &lt;div class="block-grid mixed-two-up" style="min-width: 320px; max-width: 675px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: transparent;"&gt;
+                        &lt;div style="border-collapse: collapse;display: table;width: 100%;background-color:transparent;"&gt;
+                           &lt;div class="col num4" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 224px; width: 225px;"&gt;
+                              &lt;div class="col_cont" style="width:100% !important;"&gt;
+                                 &lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="line-height: 1.2; word-break: break-word; font-size: 13px; mso-line-height-alt: 16px; mso-ansi-font-size: 14px; margin: 0;"&gt;
+                                             &lt;span style="font-size: 13px; mso-ansi-font-size: 14px;"&gt;Tel : +xx xxx xxxx&lt;/span&gt;
+                                          &lt;/p&gt;
+                                         
+                                          &lt;p style="line-height: 1.2; word-break: break-word; mso-line-height-alt: 14px; margin: 0;"&gt;&lt;br&gt;&lt;span style="font-size: 13px; mso-ansi-font-size: 14px;"&gt;Email : xxxxxxxxx@xxx.xxx&lt;/span&gt;
+                                          &lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                 &lt;/div&gt;
+                              &lt;/div&gt;
+                           &lt;/div&gt;
+                           &lt;div class="col num8" style="display: table-cell; vertical-align: top; max-width: 320px; min-width: 448px; width: 450px;"&gt;
+                              &lt;div class="col_cont" style="width:100% !important;"&gt;
+                                 &lt;div style="border-top:0px solid transparent; border-left:0px solid transparent; border-bottom:0px solid transparent; border-right:0px solid transparent; padding-top:5px; padding-bottom:5px; padding-right: 0px; padding-left: 0px;"&gt;
+                                    &lt;div style="color:#555555;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;line-height:1.2;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;"&gt;
+                                       &lt;div style="line-height: 1.2; font-size: 12px; color: #555555; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; mso-line-height-alt: 14px;"&gt;
+                                          &lt;p style="font-size: 13px; line-height: 1.2; word-break: break-word; text-align: right; mso-line-height-alt: 16px; mso-ansi-font-size: 14px; margin: 0;"&gt;
+                                             &lt;span style="font-size: 13px; mso-ansi-font-size: 14px; font-weight:600"&gt;[*CompanyName*]&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+                                             &lt;span style="font-size: 13px; mso-ansi-font-size: 14px;"&gt;xx/x xxx, xxxxx, xxxxxxxxxx&lt;/span&gt;
+                                          &lt;/p&gt;
+                                       &lt;/div&gt;
+                                    &lt;/div&gt;
+                                 &lt;/div&gt;
+                              &lt;/div&gt;
+                           &lt;/div&gt;
+                        &lt;/div&gt;
+                     &lt;/div&gt;
+                  &lt;/div&gt;
+               &lt;/td&gt;
+            &lt;/tr&gt;
+         &lt;/tbody&gt;
+      &lt;/table&gt;
+   &lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <data name="REGISTRATION_SUCCESS_MAIL_SUBJECT" xml:space="preserve">
+    <value>Vielen Dank, dass Sie ein [*AppName*]-Konto eröffnet haben!</value>
+  </data>
+  <data name="TOKEN_REQUIRED" xml:space="preserve">
+    <value>Gültiger Token erforderlich!</value>
+  </data>
+  <data name="UNSUPPORTED_MEDIA" xml:space="preserve">
+    <value>Nicht unterstützter Medientyp!</value>
+  </data>
+  <data name="WELCOME_MESSAGE" xml:space="preserve">
+    <value>Willkommen bei der Lokalisierung</value>
+  </data>
+  <data name="WRONG_CREDENTIALS" xml:space="preserve">
+    <value>Bitte geben Sie die korrekten Anmeldeinformationen ein</value>
+  </data>
+</root>

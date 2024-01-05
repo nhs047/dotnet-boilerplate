@@ -1,0 +1,17 @@
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\bin\Debug\net7.0\Localization.Test.Infrastructure.deps.json
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\bin\Debug\net7.0\Localization.Test.Infrastructure.dll
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\bin\Debug\net7.0\Localization.Test.Infrastructure.pdb
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\bin\Debug\net7.0\Localization.Test.Common.dll
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\bin\Debug\net7.0\Localization.Test.Common.pdb
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\bin\Debug\net7.0\de-DE\Localization.Test.Common.resources.dll
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\bin\Debug\net7.0\en-US\Localization.Test.Common.resources.dll
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\Localization.Test.Infrastructure.csproj.AssemblyReference.cache
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\Localization.Test.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\Localization.Test.Infrastructure.AssemblyInfoInputs.cache
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\Localization.Test.Infrastructure.AssemblyInfo.cs
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\Localization.Test.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\Localization.Test.Infrastructure.csproj.CopyComplete
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\Localization.Test.Infrastructure.dll
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\refint\Localization.Test.Infrastructure.dll
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\Localization.Test.Infrastructure.pdb
+D:\Others\Apps\Localizations\Localization.Test.Infrastructure\obj\Debug\net7.0\ref\Localization.Test.Infrastructure.dll
